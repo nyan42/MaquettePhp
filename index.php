@@ -1,5 +1,7 @@
 <?php session_start();
-include_once("fonctions-panier.php"); ?>
+include_once("fonctions-panier.php");
+include_once("test.php");
+ ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -244,6 +246,7 @@ include_once("fonctions-panier.php"); ?>
 					<div class="col">
 						<div class="product-grid" data-isotope='{ "itemSelector": ".product-item", "layoutMode": "fitRows" }'>
 
+						<?php ShowProduct(); ?>
 							<!-- Product 1 -->
 
 							<div class="product-item men">
