@@ -264,7 +264,7 @@ include_once("test.php");
 									</div>
 								</div>
 
-								<div class="red_button add_to_cart_button"><a href="panier.php" target="panier.php" 
+								<div class="red_button add_to_cart_button"><a href="#"
 								onclick=" <?php ajouterArticle('Fujifilm X100T 16 MP Digital Camera (Silver)', 1, 52.5); ?>">add to cart</a></div>
 								
 							</div>
