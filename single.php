@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -90,16 +91,16 @@
 					<div class="row">
 						<div class="col-lg-12 text-right">
 							<div class="logo_container">
-								<a href="#">colo<span>shop</span></a>
+								<a href="index.php">colo<span>shop</span></a>
 							</div>
 							<nav class="navbar">
 								<ul class="navbar_menu">
-									<li><a href="index.html">home</a></li>
+									<li><a href="index.php">home</a></li>
 									<li><a href="#">shop</a></li>
 									<li><a href="#">promotion</a></li>
 									<li><a href="#">pages</a></li>
 									<li><a href="#">blog</a></li>
-									<li><a href="contact.html">contact</a></li>
+									<li><a href="contact.php">contact</a></li>
 								</ul>
 								<ul class="navbar_user">
 									<li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
@@ -182,8 +183,8 @@
 
 					<div class="breadcrumbs d-flex flex-row align-items-center">
 						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="categories.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Men's</a>
+							<li><a href="index.php">Home</a></li>
+							<li><a href="categories.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Men's</a>
 							</li>
 							<li class="active"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Single
 									Product</a></li>
@@ -523,7 +524,7 @@
 							<ul class="footer_nav">
 								<li><a href="#">Blog</a></li>
 								<li><a href="#">FAQs</a></li>
-								<li><a href="contact.html">Contact us</a></li>
+								<li><a href="contact.php">Contact us</a></li>
 							</ul>
 						</div>
 					</div>
