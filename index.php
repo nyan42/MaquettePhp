@@ -1,7 +1,6 @@
 <?php session_start();
-include_once("fonctions-panier.php");
 include_once("test.php");
- ?>
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -12,7 +11,10 @@ include_once("test.php");
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="Colo Shop Template">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
 	<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
 	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
@@ -107,7 +109,42 @@ include_once("test.php");
 									<li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
 									<li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
 									<li class="checkout">
-										<a href="#">
+
+										<a id="panierIcon" class="btn btn-lg btn-danger popover-dismiss" type="button" onclick="updatePanier()" data-toggle="collapse in" title="Voici votre panier" data-placement="bottom"  data-html="true" data-content="
+	
+										<div id='panier-content'>
+											<img src='images/product_4.png'> And here's some amazing content. It's very engaging. Right?
+											</br> </br>
+											<section class='container'>
+												<article class='well form-inline pull-left col-lg-5'>
+													<table id='tableau' class='table'>
+														<thead>
+															<tr>
+																<th>Code</th>
+																<th>Qte</th>
+																<th>Prix unitaire</th>
+																<th>Prix de la ligne</th>
+																<th>Supprimer</th>
+															</tr>
+														</thead>
+													</table>
+													<br><label>total</label> : <label id='prixTotal'></label>
+													<label id='nbreLignes' hidden>0</label>
+												</article>
+											</section>
+										</div>
+										">
+
+											<!--			<div class="product_image">
+												<img src="images/product_4.png" alt="">
+
+
+												<script> 
+											document.getElementById('panier-content').innerHTML += 'Query did not work'; 
+										</script>"; 
+										
+											</div>-->
+
 											<i class="fa fa-shopping-cart" aria-hidden="true"></i>
 											<span id="checkout_items" class="checkout_items">2</span>
 										</a>
@@ -223,6 +260,21 @@ include_once("test.php");
 
 		<div class="new_arrivals">
 			<div class="container">
+
+
+
+				<section class='container'>
+					<article class='well form-inline pull-left col-lg-5'>
+						<legend>Gestion du panier</legend>
+						<label class='col-lg-3'>Id</label> : <input type='number' id='id' class='input-sm form-control'></input><br><br>
+						<label class='col-lg-3'>Quantité</label> : <input type='number' id='qte' class='input-sm form-control'></input><br><br>
+						<label class='col-lg-3'>Prix</label> : <input type='number' id='prix' class='input-sm form-control'></input><br><br>
+						<button class='btn btn-primary' type='submit' onclick='ajouter()'><span class='glyphicon glyphicon-shopping-cart'></span> Ajouter au panier</button>
+					</article>
+				</section>
+
+
+
 				<div class="row">
 					<div class="col text-center">
 						<div class="section_title new_arrivals_title">
@@ -246,7 +298,7 @@ include_once("test.php");
 					<div class="col">
 						<div class="product-grid" data-isotope='{ "itemSelector": ".product-item", "layoutMode": "fitRows" }'>
 
-						<?php ShowProduct(); ?>
+							<?php ShowProduct(); ?>
 							<!-- Product 1 -->
 
 							<div class="product-item men">
@@ -264,9 +316,8 @@ include_once("test.php");
 									</div>
 								</div>
 
-								<div class="red_button add_to_cart_button"><a href="" target="" 
-								onclick="">add to cart</a></div>
-								
+								<div class="red_button add_to_cart_button"><a href="" target="" onclick="">add to cart</a></div>
+
 							</div>
 
 							<!-- Product 2 -->
@@ -848,13 +899,33 @@ include_once("test.php");
 
 	</div>
 
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="styles/bootstrap4/popper.js"></script>
-	<script src="styles/bootstrap4/bootstrap.min.js"></script>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<script src="plugins/Isotope/isotope.pkgd.min.js"></script>
 	<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
 	<script src="plugins/easing/easing.js"></script>
 	<script src="js/custom.js"></script>
+	<script type="text/javascript" src="panier.js"></script>
+	
+	<script type="text/javascript">
+		let monPanier = new Panier();
+	</script>
+
+	<script>
+		$('.popover-dismiss').popover({
+			container: 'body'
+		})
+
+		function updatePanier(){
+			
+		}
+
+		
+	</script>
+
 </body>
 
 </html>
