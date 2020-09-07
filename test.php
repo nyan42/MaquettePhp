@@ -43,7 +43,7 @@ function ShowProduct()
                 }
                 ?>
             </div>
-            <div class="red_button add_to_cart_button"><a href="panier.php" target="panier.php" onclick=" <?php ajouterArticle($product['name'], 1, ($product['price'] * (1 - $product['reduction'] / 100))); ?>">add to cart</a></div>
+            <div class="red_button add_to_cart_button"><a href="#" onclick=" <?php ajouterArticle($product['name'], 1, ($product['price'] * (1 - $product['reduction'] / 100))); ?>">add to cart</a></div>
 
         </div>
 
