@@ -264,8 +264,8 @@ include_once("test.php");
 									</div>
 								</div>
 
-								<div class="red_button add_to_cart_button"><a href="panier.php" target="panier.php" 
-								onclick=" <?php ajouterArticle('Fujifilm X100T 16 MP Digital Camera (Silver)', 1, 52.5); ?>">add to cart</a></div>
+								<div class="red_button add_to_cart_button"><a href="" target="" 
+								onclick="">add to cart</a></div>
 								
 							</div>
 
@@ -839,7 +839,7 @@ include_once("test.php");
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="footer_nav_container">
-							<div class="cr">©2018 All Rights Reserverd. This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#">Colorlib</a></div>
+							<div class="cr"></div>
 						</div>
 					</div>
 				</div>
