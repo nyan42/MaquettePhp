@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  mar. 08 sep. 2020 à 14:24
+-- Généré le :  mar. 08 sep. 2020 à 17:58
 -- Version du serveur :  10.4.10-MariaDB
 -- Version de PHP :  7.3.12
 
@@ -37,7 +37,7 @@ CREATE TABLE IF NOT EXISTS `product` (
   `reduction` int(11) DEFAULT NULL,
   `genre` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4;
+) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4;
 
 --
 -- Déchargement des données de la table `product`
@@ -54,6 +54,30 @@ INSERT INTO `product` (`id`, `name`, `price`, `image`, `reduction`, `genre`) VAL
 (8, 'Carnet de note en cuir avec page en papier recyclé', 13, 'product_8.png', NULL, 'accessories'),
 (9, 'Manteau long pour femme, avec poche intégrée', 145, 'product_9.png', 10, 'women'),
 (10, 'Pull vert cassé en laine - collection été 2020', 20, 'product_10.png', NULL, 'men');
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `users`
+--
+
+DROP TABLE IF EXISTS `users`;
+CREATE TABLE IF NOT EXISTS `users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `username` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `password` varchar(100) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+
+--
+-- Déchargement des données de la table `users`
+--
+
+INSERT INTO `users` (`id`, `username`, `email`, `password`) VALUES
+(1, 'Victor', 'victor.legros@test.fr', 'cac25fac5e2a2b471e91a2f13cfa9545'),
+(2, 'toto', 'torto.dqso@toto.com', 'e332236176230bbcc9c6e00905bb4322'),
+(3, 'Max', 'max.max@max.fr', '0a5b3913cbc9a9092311630e869b4442');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
