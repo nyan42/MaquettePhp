@@ -9,7 +9,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
 
-	
+
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
@@ -73,9 +73,10 @@
 											<i class="fa fa-angle-down"></i>
 										</a>
 										<ul class="account_selection">
-											<li><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>Sign In</a>
+											<li><a href="registration/login.php"><i class="fa fa-sign-in" aria-hidden="true"></i>Sign In</a>
 											</li>
-											<li><a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a></li>
+											<li><a href="registration/register.php"><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a>
+											</li>
 										</ul>
 									</li>
 								</ul>
@@ -162,8 +163,10 @@
 							<i class="fa fa-angle-down"></i>
 						</a>
 						<ul class="menu_selection">
-							<li><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>Sign In</a></li>
-							<li><a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a></li>
+							<li><a href="registration/login.php"><i class="fa fa-sign-in" aria-hidden="true"></i>Sign In</a>
+							</li>
+							<li><a href="registration/register.php"><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a>
+							</li>
 						</ul>
 					</li>
 					<li class="menu_item"><a href="#">home</a></li>
@@ -238,7 +241,7 @@
 					</div>
 
 				</div>
-				
+
 
 				<div class="col-lg-6 get_in_touch_col">
 					<div class="get_in_touch_contents">

@@ -73,9 +73,10 @@ include_once("test.php");
 											<i class="fa fa-angle-down"></i>
 										</a>
 										<ul class="account_selection">
-											<li><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>Sign In</a>
+											<li><a href="registration/login.php"><i class="fa fa-sign-in" aria-hidden="true"></i>Sign In</a>
 											</li>
-											<li><a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a></li>
+											<li><a href="registration/register.php"><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a>
+											</li>
 										</ul>
 									</li>
 								</ul>
@@ -162,8 +163,10 @@ include_once("test.php");
 							<i class="fa fa-angle-down"></i>
 						</a>
 						<ul class="menu_selection">
-							<li><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>Sign In</a></li>
-							<li><a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a></li>
+							<li><a href="registration/login.php"><i class="fa fa-sign-in" aria-hidden="true"></i>Sign In</a>
+							</li>
+							<li><a href="registration/register.php"><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a>
+							</li>
 						</ul>
 					</li>
 					<li class="menu_item"><a href="#">home</a></li>
@@ -199,7 +202,7 @@ include_once("test.php");
 							<ul class="sidebar_categories">
 								<li><a href="#">Men</a></li>
 								<li class="active"><button><span><i class="fa fa-angle-double-right grid_sorting_button" data-filter=".women" aria-hidden="true"></i></span>Women</button></li>
-								
+
 								<li><a href="#">Accessories</a></li>
 								<li><a href="#">New Arrivals</a></li>
 								<li><a href="#">Collection</a></li>
