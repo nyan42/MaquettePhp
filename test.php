@@ -5,11 +5,11 @@ function ShowProduct($BestSellers)
     // Database settings
     $db = "e-boutique";
     $dbhost = "localhost";
-    $dbport = 3307;
+    $dbport = 3306; // ou 3307 pour du mariadb 
     $dbuser = "root";
     $dbpasswd = "";
     try {
-        $pdo = new PDO('mysql:host=' . $dbhost . ';port=' . $dbport . ';dbname=' . $db . '', $dbuser, $dbpasswd);
+        $pdo = new PDO('mysql:host=' . $dbhost. ';dbname=' . $db . '', $dbuser, $dbpasswd);
         $pdo->exec("SET CHARACTER SET utf8");
         $reponse = $pdo->query('SELECT * FROM product');
 
