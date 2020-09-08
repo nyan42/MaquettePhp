@@ -96,20 +96,20 @@ include_once("test.php");
                 <div class="row">
                     <div class="col-lg-12 text-right">
                         <div class="logo_container">
-                            <a href="index.php">colo<span>shop</span></a>
+                            <a href="index.php">php<span>shop</span></a>
                         </div>
                         <nav class="navbar">
                             <ul class="navbar_menu">
                                 <li><a href="#">home</a></li>
-                                <li><a href="#">shop</a></li>
-                                <li><a href="#">promotion</a></li>
+                                <li><a href="categories.php">shop</a></li>
+                                <li><a href="categories.php">promotion</a></li>
                                 <li><a href="#">pages</a></li>
                                 <li><a href="#">blog</a></li>
                                 <li><a href="contact.php">contact</a></li>
                             </ul>
                             <ul class="navbar_user">
                                 <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+                                <li><a href="registration/login.php"><i class="fa fa-user" aria-hidden="true"></i></a></li>
                                 <li class="checkout">
 
                                     <a id="panierIcon" class="btn btn-lg btn-danger popover-dismiss" type="button"
@@ -182,11 +182,11 @@ include_once("test.php");
                     </ul>
                 </li>
                 <li class="menu_item"><a href="#">home</a></li>
-                <li class="menu_item"><a href="#">shop</a></li>
-                <li class="menu_item"><a href="#">promotion</a></li>
+                <li class="menu_item"><a href="categories.php">shop</a></li>
+                <li class="menu_item"><a href="categories.php">promotion</a></li>
                 <li class="menu_item"><a href="#">pages</a></li>
                 <li class="menu_item"><a href="#">blog</a></li>
-                <li class="menu_item"><a href="#">contact</a></li>
+                <li class="menu_item"><a href="contact.php">contact</a></li>
             </ul>
         </div>
     </div>
@@ -198,9 +198,9 @@ include_once("test.php");
             <div class="row align-items-center fill_height">
                 <div class="col">
                     <div class="main_slider_content">
-                        <h6>Spring / Summer Collection 2017</h6>
+                        <h6>Spring / Summer Collection 2020</h6>
                         <h1>Get up to 30% Off New Arrivals</h1>
-                        <div class="red_button shop_now_button"><a href="#">shop now</a></div>
+                        <div class="red_button shop_now_button"><a href="categories.php">shop now</a></div>
                     </div>
                 </div>
             </div>
@@ -243,7 +243,7 @@ include_once("test.php");
         <div class="container">
 
 
-            <section class='container'>
+            <!--section class='container'>
                 <article class='well form-inline pull-left col-lg-5'>
                     <legend>Gestion du panier</legend>
                     <label class='col-lg-3'>Id</label> : <input type='number' id='id'
@@ -256,7 +256,7 @@ include_once("test.php");
                                 class='glyphicon glyphicon-shopping-cart'></span> Ajouter au panier
                     </button>
                 </article>
-            </section>
+            </section-->
 
 
             <div class="row">
@@ -435,8 +435,8 @@ include_once("test.php");
                     <div class="blog_item">
                         <div class="blog_background" style="background-image:url(images/blog_1.jpg)"></div>
                         <div class="blog_content d-flex flex-column align-items-center justify-content-center text-center">
-                            <h4 class="blog_title">Here are the trends I see coming this fall</h4>
-                            <span class="blog_meta">by admin | dec 01, 2017</span>
+                            <h4 class="blog_title">Here are the trends I see coming this winter</h4>
+                            <span class="blog_meta">by Louis | Sept 07, 2020</span>
                             <a class="blog_more" href="#">Read more</a>
                         </div>
                     </div>
@@ -445,8 +445,8 @@ include_once("test.php");
                     <div class="blog_item">
                         <div class="blog_background" style="background-image:url(images/blog_2.jpg)"></div>
                         <div class="blog_content d-flex flex-column align-items-center justify-content-center text-center">
-                            <h4 class="blog_title">Here are the trends I see coming this fall</h4>
-                            <span class="blog_meta">by admin | dec 01, 2017</span>
+                            <h4 class="blog_title">How I became a pop-star wearing my grandma's clothes</h4>
+                            <span class="blog_meta">by Victor | Sept 08, 2020</span>
                             <a class="blog_more" href="#">Read more</a>
                         </div>
                     </div>
@@ -455,8 +455,8 @@ include_once("test.php");
                     <div class="blog_item">
                         <div class="blog_background" style="background-image:url(images/blog_3.jpg)"></div>
                         <div class="blog_content d-flex flex-column align-items-center justify-content-center text-center">
-                            <h4 class="blog_title">Here are the trends I see coming this fall</h4>
-                            <span class="blog_meta">by admin | dec 01, 2017</span>
+                            <h4 class="blog_title">How to be cool with only $40</h4>
+                            <span class="blog_meta">by Victor | Sept 09, 2020</span>
                             <a class="blog_more" href="#">Read more</a>
                         </div>
                     </div>

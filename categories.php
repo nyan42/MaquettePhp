@@ -92,13 +92,13 @@ include_once("test.php");
 					<div class="row">
 						<div class="col-lg-12 text-right">
 							<div class="logo_container">
-								<a href="index.php">colo<span>shop</span></a>
+								<a href="index.php">php<span>shop</span></a>
 							</div>
 							<nav class="navbar">
 								<ul class="navbar_menu">
 									<li><a href="index.php">home</a></li>
-									<li><a href="#">shop</a></li>
-									<li><a href="#">promotion</a></li>
+									<li><a href="categories.php">shop</a></li>
+									<li><a href="categories.php">promotion</a></li>
 									<li><a href="#">pages</a></li>
 									<li><a href="#">blog</a></li>
 									<li><a href="contact.php">contact</a></li>
@@ -198,7 +198,8 @@ include_once("test.php");
 							</div>
 							<ul class="sidebar_categories">
 								<li><a href="#">Men</a></li>
-								<li class="active"><a href="#"><span><i class="fa fa-angle-double-right" aria-hidden="true"></i></span>Women</a></li>
+								<li class="active"><button><span><i class="fa fa-angle-double-right grid_sorting_button" data-filter=".women" aria-hidden="true"></i></span>Women</button></li>
+								
 								<li><a href="#">Accessories</a></li>
 								<li><a href="#">New Arrivals</a></li>
 								<li><a href="#">Collection</a></li>
@@ -313,7 +314,7 @@ include_once("test.php");
 
 									<div class="product-grid">
 
-									 <?php ShowProduct("all"); ?>
+										<?php ShowProduct("all"); ?>
 									</div>
 
 									<!-- Product Sorting -->

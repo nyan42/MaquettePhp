@@ -9,6 +9,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
 
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
 	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
@@ -90,13 +92,13 @@
 					<div class="row">
 						<div class="col-lg-12 text-right">
 							<div class="logo_container">
-								<a href="#">colo<span>shop</span></a>
+								<a href="index.php">php<span>shop</span></a>
 							</div>
 							<nav class="navbar">
 								<ul class="navbar_menu">
 									<li><a href="index.php">home</a></li>
-									<li><a href="#">shop</a></li>
-									<li><a href="#">promotion</a></li>
+									<li><a href="categories.php">shop</a></li>
+									<li><a href="categories.php">promotion</a></li>
 									<li><a href="#">pages</a></li>
 									<li><a href="#">blog</a></li>
 									<li><a href="contact.php">contact</a></li>
@@ -197,7 +199,7 @@
 					<div id="google_map">
 						<div class="map_container">
 							<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2529.5261762349164!2d3.11643281590166!3d50.654490380522475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c329ec0d0877e3%3A0x2a62f734a117aa07!2sTrenois%20Decamps%20Lille-Wasquehal!5e0!3m2!1sfr!2sfr!4v1599576058629!5m2!1sfr!2sfr" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-							
+
 						</div>
 					</div>
 				</div>
@@ -218,6 +220,7 @@
 						</div>
 						<div>
 							<p>Open hours: 8.00-18.00 Mon-Fri</p>
+							<p>8.00-12.00 Sat </p>
 							<p>Sunday: Closed</p>
 						</div>
 					</div>
@@ -235,11 +238,12 @@
 					</div>
 
 				</div>
+				
 
 				<div class="col-lg-6 get_in_touch_col">
 					<div class="get_in_touch_contents">
 						<h1>Get In Touch With Us!</h1>
-						<p>Fill out the form below to recieve a free and confidential.</p>
+						<p>Fill out the form below to share your opinion about us.</p>
 						<form action="post">
 							<div>
 								<input id="input_name" class="form_input input_name input_ph" type="text" name="name" placeholder="Name" required="required" data-error="Name is required.">
@@ -324,7 +328,6 @@
 	<script src="plugins/Isotope/isotope.pkgd.min.js"></script>
 	<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
 	<script src="plugins/easing/easing.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCIwF204lFZg1y4kPSIhKaHEXMLYxxuMhA"></script>
 	<script src="plugins/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
 	<script src="js/contact_custom.js"></script>
 </body>
