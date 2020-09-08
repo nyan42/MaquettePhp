@@ -196,7 +196,8 @@
 				<div class="col">
 					<div id="google_map">
 						<div class="map_container">
-							<div id="map"></div>
+							<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2529.5261762349164!2d3.11643281590166!3d50.654490380522475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c329ec0d0877e3%3A0x2a62f734a117aa07!2sTrenois%20Decamps%20Lille-Wasquehal!5e0!3m2!1sfr!2sfr!4v1599576058629!5m2!1sfr!2sfr" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+							
 						</div>
 					</div>
 				</div>
@@ -214,9 +215,6 @@
 						<div>
 							<p>(+33) 06 52 68 95 29</p>
 							<p>victor.legros@epsi.fr</p>
-						</div>
-						<div>
-							<p>mm</p>
 						</div>
 						<div>
 							<p>Open hours: 8.00-18.00 Mon-Fri</p>

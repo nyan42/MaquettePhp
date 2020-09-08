@@ -443,7 +443,7 @@ include_once("test.php");
 							<div class="blog_background" style="background-image:url(images/blog_1.jpg)"></div>
 							<div class="blog_content d-flex flex-column align-items-center justify-content-center text-center">
 								<h4 class="blog_title">Here are the trends I see coming this fall</h4>
-								<span class="blog_meta">by admin | dec 01, 2017</span>
+								<span class="blog_meta">by Louis | Sep 08, 2020</span>
 								<a class="blog_more" href="#">Read more</a>
 							</div>
 						</div>
@@ -452,8 +452,8 @@ include_once("test.php");
 						<div class="blog_item">
 							<div class="blog_background" style="background-image:url(images/blog_2.jpg)"></div>
 							<div class="blog_content d-flex flex-column align-items-center justify-content-center text-center">
-								<h4 class="blog_title">Here are the trends I see coming this fall</h4>
-								<span class="blog_meta">by admin | dec 01, 2017</span>
+								<h4 class="blog_title">I became a pop-star using my grandma's clothes</h4>
+								<span class="blog_meta">by Victor | Sep 07, 2020</span>
 								<a class="blog_more" href="#">Read more</a>
 							</div>
 						</div>
@@ -462,8 +462,8 @@ include_once("test.php");
 						<div class="blog_item">
 							<div class="blog_background" style="background-image:url(images/blog_3.jpg)"></div>
 							<div class="blog_content d-flex flex-column align-items-center justify-content-center text-center">
-								<h4 class="blog_title">Here are the trends I see coming this fall</h4>
-								<span class="blog_meta">by admin | dec 01, 2017</span>
+								<h4 class="blog_title">How to be cool with only $60</h4>
+								<span class="blog_meta">by Victor | Sep 10, 2020</span>
 								<a class="blog_more" href="#">Read more</a>
 							</div>
 						</div>
