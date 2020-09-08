@@ -19,7 +19,7 @@ function ShowProduct($BestSellers)
                             //plein tarif
                             echo '<div class="favorite favorite_right"></div>'; ?>
                             <div class="product_info">
-                                <h6 class="product_name"><a href="single.php"> <?php echo $product['name']; ?> </a></h6>
+                                <h6 class="product_name"><a  > <?php echo $product['name']; ?> </a></h6>
                                 <div class="product_price">
                                     <?php
                                     echo '$' . $product['price'];
@@ -33,7 +33,7 @@ function ShowProduct($BestSellers)
             <span>-' . $product['reduction'] . '%</span></div>'; ?>
 
                             <div class="product_info">
-                                <h6 class="product_name"><a href="single.php"> <?php echo $product['name']; ?> </a></h6>
+                                <h6 class="product_name"><a  > <?php echo $product['name']; ?> </a></h6>
                                 <div class="product_price">
                                     <?php
                                     echo '$' . ($product['price'] * (1 - $product['reduction'] / 100)) . '<span>$' . $product['price'] . '</span>';
@@ -60,7 +60,7 @@ function ShowProduct($BestSellers)
                         //plein tarif
                         echo '<div class="favorite favorite_right"></div>'; ?>
                         <div class="product_info">
-                            <h6 class="product_name"><a href="single.php"> <?php echo $product['name']; ?> </a></h6>
+                            <h6 class="product_name"><a  > <?php echo $product['name']; ?> </a></h6>
                             <div class="product_price">
                                 <?php
                                 echo '$' . $product['price'];
@@ -74,7 +74,7 @@ function ShowProduct($BestSellers)
                         <span>-' . $product['reduction'] . '%</span></div>'; ?>
 
                         <div class="product_info">
-                            <h6 class="product_name"><a href="single.php"> <?php echo $product['name']; ?> </a></h6>
+                            <h6 class="product_name"><a  > <?php echo $product['name']; ?> </a></h6>
                             <div class="product_price">
                                 <?php
                                 echo '$' . ($product['price'] * (1 - $product['reduction'] / 100)) . '<span>$' . $product['price'] . '</span>';

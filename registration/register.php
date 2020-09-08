@@ -99,16 +99,16 @@
 							</div>
 							<nav class="navbar">
 								<ul class="navbar_menu">
-									<li><a href="#">home</a></li>
-									<li><a href="categories.php">shop</a></li>
-									<li><a href="categories.php">promotion</a></li>
+									<li><a href="../">home</a></li>
+									<li><a href="../categories.php">shop</a></li>
+									<li><a href="../categories.php">promotion</a></li>
 									<li><a href="#">pages</a></li>
 									<li><a href="#">blog</a></li>
-									<li><a href="contact.php">contact</a></li>
+									<li><a href="../contact.php">contact</a></li>
 								</ul>
 								<ul class="navbar_user">
 									<li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-									<li><a href="login.php"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+									<li><a href="index.php"><i class="fa fa-user" aria-hidden="true"></i></a></li>
 									<li class="checkout">
 
 										<a id="panierIcon" class="btn btn-lg btn-danger popover-dismiss" type="button" data-toggle="collapse in" title="Voici votre panier" data-placement="bottom" data-html="true">
@@ -170,12 +170,12 @@
 							</li>
 						</ul>
 					</li>
-					<li class="menu_item"><a href="#">home</a></li>
+					<li class="menu_item"><a href="../">home</a></li>
 					<li class="menu_item"><a href="categories.php">shop</a></li>
 					<li class="menu_item"><a href="categories.php">promotion</a></li>
 					<li class="menu_item"><a href="#">pages</a></li>
 					<li class="menu_item"><a href="#">blog</a></li>
-					<li class="menu_item"><a href="contact.php">contact</a></li>
+					<li class="menu_item"><a href="../contact.php">contact</a></li>
 				</ul>
 			</div>
 		</div>

@@ -106,7 +106,7 @@
 								</ul>
 								<ul class="navbar_user">
 									<li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+									<li><a href="registration/index.php"><i class="fa fa-user" aria-hidden="true"></i></a></li>
 									<li class="checkout">
 										<a href="#">
 											<i class="fa fa-shopping-cart" aria-hidden="true"></i>
@@ -158,7 +158,7 @@
 						</ul>
 					</li>
 					<li class="menu_item has-children">
-						<a href="#">
+						<a href="registration/index.php">
 							My Account
 							<i class="fa fa-angle-down"></i>
 						</a>

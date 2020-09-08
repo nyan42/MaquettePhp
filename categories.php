@@ -106,7 +106,7 @@ include_once("test.php");
 								</ul>
 								<ul class="navbar_user">
 									<li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+									<li><a href="registration/index.php"><i class="fa fa-user" aria-hidden="true"></i></a></li>
 									<li class="checkout">
 										<a href="#">
 											<i class="fa fa-shopping-cart" aria-hidden="true"></i>
@@ -201,7 +201,7 @@ include_once("test.php");
 							</div>
 							<ul class="sidebar_categories">
 								<li><a href="#">Men</a></li>
-								<li class="active"><button><span><i class="fa fa-angle-double-right grid_sorting_button" data-filter=".women" aria-hidden="true"></i></span>Women</button></li>
+								<li class="active"><a><span><i class="fa fa-angle-double-right grid_sorting_button" data-filter=".women" aria-hidden="true"></i></span>Women</a></li>
 
 								<li><a href="#">Accessories</a></li>
 								<li><a href="#">New Arrivals</a></li>

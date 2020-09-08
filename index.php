@@ -108,7 +108,7 @@ include_once("test.php");
                                 </ul>
                                 <ul class="navbar_user">
                                     <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                                    <li><a href="registration/login.php"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+									<li><a href="registration/index.php"><i class="fa fa-user" aria-hidden="true"></i></a></li>
                                     <li class="checkout">
 
                                         <a id="panierIcon" class="btn btn-lg btn-danger popover-dismiss" type="button" data-toggle="collapse in" title="Voici votre panier" data-placement="bottom" data-html="true">
