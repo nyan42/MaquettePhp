@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  mar. 08 sep. 2020 à 17:58
+-- Généré le :  mar. 08 sep. 2020 à 19:37
 -- Version du serveur :  10.4.10-MariaDB
 -- Version de PHP :  7.3.12
 
@@ -51,7 +51,7 @@ INSERT INTO `product` (`id`, `name`, `price`, `image`, `reduction`, `genre`) VAL
 (5, 'Chaussure basse marron avec lacets cousus main', 75, 'product_5.png', 33, 'accessories'),
 (6, 'Lunette aviateur bleuté avec résistance au soleil de 8', 12, 'product_6.png', NULL, 'accessories'),
 (7, 'pull doux en laine de lama, avec finition ocre', 25, 'product_7.png', 5, 'women'),
-(8, 'Carnet de note en cuir avec page en papier recyclé', 13, 'product_8.png', NULL, 'accessories'),
+(8, 'Sacoche en cuir avec fermeture éclaire et cordon', 13, 'product_8.png', NULL, 'accessories'),
 (9, 'Manteau long pour femme, avec poche intégrée', 145, 'product_9.png', 10, 'women'),
 (10, 'Pull vert cassé en laine - collection été 2020', 20, 'product_10.png', NULL, 'men');
 
