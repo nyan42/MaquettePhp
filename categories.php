@@ -73,8 +73,7 @@
 										<ul class="account_selection">
 											<li><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>Sign In</a>
 											</li>
-											<li><a href="#"><i class="fa fa-user-plus"
-														aria-hidden="true"></i>Register</a></li>
+											<li><a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a></li>
 										</ul>
 									</li>
 								</ul>
@@ -184,8 +183,7 @@
 					<div class="breadcrumbs d-flex flex-row align-items-center">
 						<ul>
 							<li><a href="index.php">Home</a></li>
-							<li class="active"><a href="index.php"><i class="fa fa-angle-right"
-										aria-hidden="true"></i>Men's</a></li>
+							<li class="active"><a href="index.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Men's</a></li>
 						</ul>
 					</div>
 
@@ -198,8 +196,7 @@
 							</div>
 							<ul class="sidebar_categories">
 								<li><a href="#">Men</a></li>
-								<li class="active"><a href="#"><span><i class="fa fa-angle-double-right"
-												aria-hidden="true"></i></span>Women</a></li>
+								<li class="active"><a href="#"><span><i class="fa fa-angle-double-right" aria-hidden="true"></i></span>Women</a></li>
 								<li><a href="#">Accessories</a></li>
 								<li><a href="#">New Arrivals</a></li>
 								<li><a href="#">Collection</a></li>
@@ -213,8 +210,7 @@
 								<h5>Filter by Price</h5>
 							</div>
 							<p>
-								<input type="text" id="amount" readonly
-									style="border:0; color:#f6931f; font-weight:bold;">
+								<input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
 							</p>
 							<div id="slider-range"></div>
 							<div class="filter_button"><span>filter</span></div>
@@ -277,14 +273,11 @@
 												<span class="type_sorting_text">Default Sorting</span>
 												<i class="fa fa-angle-down"></i>
 												<ul class="sorting_type">
-													<li class="type_sorting_btn"
-														data-isotope-option='{ "sortBy": "original-order" }'>
+													<li class="type_sorting_btn" data-isotope-option='{ "sortBy": "original-order" }'>
 														<span>Default Sorting</span></li>
-													<li class="type_sorting_btn"
-														data-isotope-option='{ "sortBy": "price" }'><span>Price</span>
+													<li class="type_sorting_btn" data-isotope-option='{ "sortBy": "price" }'><span>Price</span>
 													</li>
-													<li class="type_sorting_btn"
-														data-isotope-option='{ "sortBy": "name" }'><span>Product
+													<li class="type_sorting_btn" data-isotope-option='{ "sortBy": "name" }'><span>Product
 															Name</span></li>
 												</ul>
 											</li>
@@ -309,8 +302,7 @@
 												</ul>
 											</div>
 											<div class="page_total"><span>of</span> 3</div>
-											<div id="next_page" class="page_next"><a href="#"><i
-														class="fa fa-long-arrow-right" aria-hidden="true"></i></a></div>
+											<div id="next_page" class="page_next"><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></div>
 										</div>
 
 									</div>
@@ -327,8 +319,7 @@
 													<img src="images/product_1.png" alt="">
 												</div>
 												<div class="favorite favorite_left"></div>
-												<div
-													class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center">
+												<div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center">
 													<span>-$20</span></div>
 												<div class="product_info">
 													<h6 class="product_name"><a href="single.php">Fujifilm X100T 16 MP
@@ -347,8 +338,7 @@
 													<img src="images/product_2.png" alt="">
 												</div>
 												<div class="favorite"></div>
-												<div
-													class="product_bubble product_bubble_left product_bubble_green d-flex flex-column align-items-center">
+												<div class="product_bubble product_bubble_left product_bubble_green d-flex flex-column align-items-center">
 													<span>new</span></div>
 												<div class="product_info">
 													<h6 class="product_name"><a href="single.php">Samsung CF591 Series
@@ -383,8 +373,7 @@
 												<div class="product_image">
 													<img src="images/product_4.png" alt="">
 												</div>
-												<div
-													class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center">
+												<div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center">
 													<span>sale</span></div>
 												<div class="favorite favorite_left"></div>
 												<div class="product_info">
@@ -421,8 +410,7 @@
 													<img src="images/product_6.png" alt="">
 												</div>
 												<div class="favorite favorite_left"></div>
-												<div
-													class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center">
+												<div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center">
 													<span>-$20</span></div>
 												<div class="product_info">
 													<h6 class="product_name"><a href="single.php">Fujifilm X100T 16 MP
@@ -474,8 +462,7 @@
 												<div class="product_image">
 													<img src="images/product_9.png" alt="">
 												</div>
-												<div
-													class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center">
+												<div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center">
 													<span>sale</span></div>
 												<div class="favorite favorite_left"></div>
 												<div class="product_info">
@@ -529,8 +516,7 @@
 													<img src="images/product_6.png" alt="">
 												</div>
 												<div class="favorite favorite_left"></div>
-												<div
-													class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center">
+												<div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center">
 													<span>-$20</span></div>
 												<div class="product_info">
 													<h6 class="product_name"><a href="single.php">Fujifilm X100T 16 MP
@@ -569,8 +555,7 @@
 												</ul>
 											</div>
 											<div class="page_total"><span>of</span> 3</div>
-											<div id="next_page_1" class="page_next"><a href="#"><i
-														class="fa fa-long-arrow-right" aria-hidden="true"></i></a></div>
+											<div id="next_page_1" class="page_next"><a href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></div>
 										</div>
 
 									</div>
@@ -634,19 +619,15 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6">
-						<div
-							class="newsletter_text d-flex flex-column justify-content-center align-items-lg-start align-items-md-center text-center">
+						<div class="newsletter_text d-flex flex-column justify-content-center align-items-lg-start align-items-md-center text-center">
 							<h4>Newsletter</h4>
 							<p>Subscribe to our newsletter and get 20% off your first purchase</p>
 						</div>
 					</div>
 					<div class="col-lg-6">
-						<div
-							class="newsletter_form d-flex flex-md-row flex-column flex-xs-column align-items-center justify-content-lg-end justify-content-center">
-							<input id="newsletter_email" type="email" placeholder="Your email" required="required"
-								data-error="Valid email is required.">
-							<button id="newsletter_submit" type="submit" class="newsletter_submit_btn trans_300"
-								value="Submit">subscribe</button>
+						<div class="newsletter_form d-flex flex-md-row flex-column flex-xs-column align-items-center justify-content-lg-end justify-content-center">
+							<input id="newsletter_email" type="email" placeholder="Your email" required="required" data-error="Valid email is required.">
+							<button id="newsletter_submit" type="submit" class="newsletter_submit_btn trans_300" value="Submit">subscribe</button>
 						</div>
 					</div>
 				</div>
@@ -659,8 +640,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6">
-						<div
-							class="footer_nav_container d-flex flex-sm-row flex-column align-items-center justify-content-lg-start justify-content-center text-center">
+						<div class="footer_nav_container d-flex flex-sm-row flex-column align-items-center justify-content-lg-start justify-content-center text-center">
 							<ul class="footer_nav">
 								<li><a href="#">Blog</a></li>
 								<li><a href="#">FAQs</a></li>
@@ -669,8 +649,7 @@
 						</div>
 					</div>
 					<div class="col-lg-6">
-						<div
-							class="footer_social d-flex flex-row align-items-center justify-content-lg-end justify-content-center">
+						<div class="footer_social d-flex flex-row align-items-center justify-content-lg-end justify-content-center">
 							<ul>
 								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -684,7 +663,7 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="footer_nav_container">
-							<div class="cr">©2018 All Rights Reserverd. Template by <a href="#">Colorlib</a></div>
+							<div class="cr"></div>
 						</div>
 					</div>
 				</div>

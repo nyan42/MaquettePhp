@@ -73,8 +73,7 @@
 										<ul class="account_selection">
 											<li><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>Sign In</a>
 											</li>
-											<li><a href="#"><i class="fa fa-user-plus"
-														aria-hidden="true"></i>Register</a></li>
+											<li><a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a></li>
 										</ul>
 									</li>
 								</ul>
@@ -201,19 +200,15 @@
 							<div class="col-lg-3 thumbnails_col order-lg-1 order-2">
 								<div class="single_product_thumbnails">
 									<ul>
-										<li><img src="images/single_1_thumb.jpg" alt=""
-												data-image="images/single_1.jpg"></li>
-										<li class="active"><img src="images/single_2_thumb.jpg" alt=""
-												data-image="images/single_2.jpg"></li>
-										<li><img src="images/single_3_thumb.jpg" alt=""
-												data-image="images/single_3.jpg"></li>
+										<li><img src="images/single_1_thumb.jpg" alt="" data-image="images/single_1.jpg"></li>
+										<li class="active"><img src="images/single_2_thumb.jpg" alt="" data-image="images/single_2.jpg"></li>
+										<li><img src="images/single_3_thumb.jpg" alt="" data-image="images/single_3.jpg"></li>
 									</ul>
 								</div>
 							</div>
 							<div class="col-lg-9 image_col order-lg-2 order-1">
 								<div class="single_product_image">
-									<div class="single_product_image_background"
-										style="background-image:url(images/single_2.jpg)"></div>
+									<div class="single_product_image_background" style="background-image:url(images/single_2.jpg)"></div>
 								</div>
 							</div>
 						</div>
@@ -271,8 +266,7 @@
 				<div class="row">
 					<div class="col">
 						<div class="tabs_container">
-							<ul
-								class="tabs d-flex flex-sm-row flex-column align-items-left align-items-md-center justify-content-center">
+							<ul class="tabs d-flex flex-sm-row flex-column align-items-left align-items-md-center justify-content-center">
 								<li class="tab active" data-active-tab="tab_1"><span>Description</span></li>
 								<li class="tab" data-active-tab="tab_2"><span>Additional Information</span></li>
 								<li class="tab" data-active-tab="tab_3"><span>Reviews (2)</span></li>
@@ -402,12 +396,8 @@
 										<form id="review_form" action="post">
 											<div>
 												<h1>Add Review</h1>
-												<input id="review_name" class="form_input input_name" type="text"
-													name="name" placeholder="Name*" required="required"
-													data-error="Name is required.">
-												<input id="review_email" class="form_input input_email" type="email"
-													name="email" placeholder="Email*" required="required"
-													data-error="Valid email is required.">
+												<input id="review_name" class="form_input input_name" type="text" name="name" placeholder="Name*" required="required" data-error="Name is required.">
+												<input id="review_email" class="form_input input_email" type="email" name="email" placeholder="Email*" required="required" data-error="Valid email is required.">
 											</div>
 											<div>
 												<h1>Your Rating:</h1>
@@ -418,14 +408,10 @@
 													<li><i class="fa fa-star" aria-hidden="true"></i></li>
 													<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
 												</ul>
-												<textarea id="review_message" class="input_review" name="message"
-													placeholder="Your Review" rows="4" required
-													data-error="Please, leave us a review."></textarea>
+												<textarea id="review_message" class="input_review" name="message" placeholder="Your Review" rows="4" required data-error="Please, leave us a review."></textarea>
 											</div>
 											<div class="text-left text-sm-right">
-												<button id="review_submit" type="submit"
-													class="red_button review_submit_btn trans_300"
-													value="Submit">submit</button>
+												<button id="review_submit" type="submit" class="red_button review_submit_btn trans_300" value="Submit">submit</button>
 											</div>
 										</form>
 									</div>
@@ -492,20 +478,16 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6">
-						<div
-							class="newsletter_text d-flex flex-column justify-content-center align-items-lg-start align-items-md-center text-center">
+						<div class="newsletter_text d-flex flex-column justify-content-center align-items-lg-start align-items-md-center text-center">
 							<h4>Newsletter</h4>
 							<p>Subscribe to our newsletter and get 20% off your first purchase</p>
 						</div>
 					</div>
 					<div class="col-lg-6">
 						<form action="post">
-							<div
-								class="newsletter_form d-flex flex-md-row flex-column flex-xs-column align-items-center justify-content-lg-end justify-content-center">
-								<input id="newsletter_email" type="email" placeholder="Your email" required="required"
-									data-error="Valid email is required.">
-								<button id="newsletter_submit" type="submit" class="newsletter_submit_btn trans_300"
-									value="Submit">subscribe</button>
+							<div class="newsletter_form d-flex flex-md-row flex-column flex-xs-column align-items-center justify-content-lg-end justify-content-center">
+								<input id="newsletter_email" type="email" placeholder="Your email" required="required" data-error="Valid email is required.">
+								<button id="newsletter_submit" type="submit" class="newsletter_submit_btn trans_300" value="Submit">subscribe</button>
 							</div>
 						</form>
 					</div>
@@ -519,8 +501,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6">
-						<div
-							class="footer_nav_container d-flex flex-sm-row flex-column align-items-center justify-content-lg-start justify-content-center text-center">
+						<div class="footer_nav_container d-flex flex-sm-row flex-column align-items-center justify-content-lg-start justify-content-center text-center">
 							<ul class="footer_nav">
 								<li><a href="#">Blog</a></li>
 								<li><a href="#">FAQs</a></li>
@@ -529,8 +510,7 @@
 						</div>
 					</div>
 					<div class="col-lg-6">
-						<div
-							class="footer_social d-flex flex-row align-items-center justify-content-lg-end justify-content-center">
+						<div class="footer_social d-flex flex-row align-items-center justify-content-lg-end justify-content-center">
 							<ul>
 								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -544,8 +524,7 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="footer_nav_container">
-							<div class="cr">©2018 All Rights Reserverd. This template is made with <i
-									class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#">Colorlib</a></div>
+							<div class="cr">©2018 All Rights Reserverd. This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#">Colorlib</a></div>
 						</div>
 					</div>
 				</div>
