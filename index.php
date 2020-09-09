@@ -108,22 +108,12 @@ include_once("test.php");
                                 </ul>
                                 <ul class="navbar_user">
                                     <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-									<li><a href="registration/index.php"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+                                    <li><a href="registration/index.php"><i class="fa fa-user" aria-hidden="true"></i></a></li>
                                     <li class="checkout">
 
                                         <a id="panierIcon" class="btn btn-lg btn-danger popover-dismiss" type="button" data-toggle="collapse in" title="Voici votre panier" data-placement="bottom" data-html="true">
 
-                                            <!--			<div class="product_image">
-                                            <img src="images/product_4.png" alt="">
-
-
-                                            <script>
-                                        document.getElementById('panier-content').innerHTML += 'Query did not work';
-                                    </script>";
-
-                                        </div>-->
-
-                                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                           <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                                             <span id="checkout_items" class="checkout_items">2</span>
                                         </a>
                                     </li>
@@ -242,20 +232,7 @@ include_once("test.php");
             <div class="container">
 
 
-                <section class='container'>
-                <article class='well form-inline pull-left col-lg-5'>
-                    <legend>Gestion du panier</legend>
-                    <label class='col-lg-3'>Id</label> : <input type='number' id='id'
-                                                                class='input-sm form-control'></input><br><br>
-                    <label class='col-lg-3'>Quantité</label> : <input type='number' id='qte'
-                                                                      class='input-sm form-control'></input><br><br>
-                    <label class='col-lg-3'>Prix</label> : <input type='number' id='prix'
-                                                                  class='input-sm form-control'></input><br><br>
-                    <button class='btn btn-primary' type='submit' onclick='ajouter()'><span
-                                class='glyphicon glyphicon-shopping-cart'></span> Ajouter au panier
-                    </button>
-                </article>
-            </section>
+                
 
 
                 <div class="row">
@@ -326,13 +303,13 @@ include_once("test.php");
                                     <div class="timer_unit">Sec</div>
                                 </li>
                             </ul>
-                            <div class="red_button deal_ofthe_week_button"><a href="#">shop now</a></div>
+                            <div class="red_button deal_ofthe_week_button"><a href="categories.php">shop now</a></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
+        
         <!-- Best Sellers -->
 
         <div class="best_sellers">
@@ -344,6 +321,16 @@ include_once("test.php");
                         </div>
                     </div>
                 </div>
+                <section class='container'>
+                    <article class='well form-inline pull-left col-lg-5'>
+                        <legend>Gestion du panier</legend>
+                        <label class='col-lg-3'>Id</label> : <input type='number' id='id' class='input-sm form-control'></input><br><br>
+                        <label class='col-lg-3'>Quantité</label> : <input type='number' id='qte' class='input-sm form-control'></input><br><br>
+                        <label class='col-lg-3'>Prix</label> : <input type='number' id='prix' class='input-sm form-control'></input><br><br>
+                        <button class='btn btn-primary' type='submit' onclick='ajouter()'><span class='glyphicon glyphicon-shopping-cart'></span> Ajouter au panier
+                        </button>
+                    </article>
+                </section>
                 <div class="row">
                     <div class="col">
                         <div class="product_slider_container">
@@ -541,8 +528,6 @@ include_once("test.php");
                 } else {
                     let result = `
                         <div id='panier-content'>
-                        <img src='images/product_4.png'> And here's some amazing content. It's very engaging. Right?
-                        </br> </br>
                         <section class='container'>
                         <article class='well form-inline pull-left col-lg-5'>
                         <table id='tableau' class='table'>
@@ -569,7 +554,7 @@ include_once("test.php");
                         `;
                     });
 
-                        result += `</tbody>
+                    result += `</tbody>
                         </table>
                         <br><label>total</label> : <label id='prixTotal'></label>
                         <label id='nbreLignes' hidden>0</label>
