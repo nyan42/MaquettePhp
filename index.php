@@ -242,7 +242,7 @@ include_once("test.php");
             <div class="container">
 
 
-                <!--section class='container'>
+                <section class='container'>
                 <article class='well form-inline pull-left col-lg-5'>
                     <legend>Gestion du panier</legend>
                     <label class='col-lg-3'>Id</label> : <input type='number' id='id'
@@ -255,7 +255,7 @@ include_once("test.php");
                                 class='glyphicon glyphicon-shopping-cart'></span> Ajouter au panier
                     </button>
                 </article>
-            </section-->
+            </section>
 
 
                 <div class="row">
@@ -539,7 +539,46 @@ include_once("test.php");
                 if (monPanier.liste.length === 0) {
                     return "Votre panier est vide."
                 } else {
-                    return monPanier.liste[0].codeArticle;
+                    let result = `
+                        <div id='panier-content'>
+                        <img src='images/product_4.png'> And here's some amazing content. It's very engaging. Right?
+                        </br> </br>
+                        <section class='container'>
+                        <article class='well form-inline pull-left col-lg-5'>
+                        <table id='tableau' class='table'>
+                        <thead>
+                        <tr>
+                        <th>Code</th>
+                        <th>Qte</th>
+                        <th>Prix unitaire</th>
+                        <th>Prix de la ligne</th>
+                        <th>Supprimer</th>
+                        </tr>
+                        </thead>
+                        <tbody>`;
+
+                    monPanier.liste.forEach(item => {
+                        result += `
+                            <tr>
+                            <td>${item.codeArticle}</td>
+                            <td>${item.qteArticle}</td>
+                            <td>${item.prixArticle}</td>
+                            <td>${item.getPrixLigne()}</td>
+                            <td><button class=\"btn btn-primary\" type=\"submit\" onclick=\"supprimer(this.parentNode.parentNode.cells[0].innerHTML)\"><span class=\"glyphicon glyphicon-remove\"></span>Retirer</button></td>
+                            </tr>
+                        `;
+                    });
+
+                        result += `</tbody>
+                        </table>
+                        <br><label>total</label> : <label id='prixTotal'></label>
+                        <label id='nbreLignes' hidden>0</label>
+                        </article>
+                        </section>
+                        </div>
+                    `;
+
+                    return result;
                 }
             }
         })
